@@ -1,0 +1,89 @@
+/* Основной контейнер для урока */
+.lesson-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Заголовки */
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  h4 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Прогресс-бар */
+  .progress-container {
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    appearance: none;
+  }
+  
+  .progress-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Кнопки */
+  .buttons-container {
+    margin-top: 20px;
+  }
+  
+  .lesson-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .lesson-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .lesson-button:hover:not(:disabled) {
+    background-color: #45a049;
+  }
+  
+  .reset-container {
+    margin-top: 20px;
+  }
+  
+  .reset-button {
+    padding: 10px 20px;
+    /* background-color: #f44336; */
+    /* border: 1px solid #f44336; */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reset-button:hover {
+    /* background-color: #d32f2f; */
+  }
+  
